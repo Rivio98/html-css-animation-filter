@@ -103,8 +103,22 @@
     to {
         filter: grayscale(100%);
 
-        border-radius: 50%;
+        border-radius: 20%;
     }
 }
 
 /* Esercizio 9 */
+.ex-9-img:hover {
+    animation-name: nine;
+    filter: blur(10px);
+    animation-duration: 8s;
+}
+
+@keyframes nine {
+    to {
+        filter: grayscale(100%);
+
+        border-radius: 20%;
+        scale: 1.5;
+    }
+}
