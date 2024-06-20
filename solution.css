@@ -72,3 +72,22 @@
         scale: 0.5;
     }
 }
+
+/* Esercizio 6 */
+.ex-6-img:hover {
+    animation-name: six;
+    filter: grayscale(100%);
+}
+
+/* Esercizio 7 */
+.ex-7-img:hover {
+    animation-name: seven;
+    filter: blur(10px);
+    animation-duration: 5s;
+}
+
+@keyframes seven {
+    to {
+        filter: grayscale(100%);
+    }
+}
