@@ -1,4 +1,23 @@
 /* Esercizio 1 */
-div.ex-1-square :hover {
-    background-color: red;
+.ex-1-square:hover {
+    animation-name: one;
+    animation-duration: 4s;
+}
+
+@keyframes one {
+    to {
+        background-color: #FF0000;
+    }
+}
+
+/* Esercizio 2 */
+.ex-2-square:hover {
+    animation-name: two;
+    animation-duration: 4s;
+}
+
+@keyframes two {
+    to {
+        width: 100%;
+    }
 }
