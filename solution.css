@@ -11,7 +11,7 @@
 }
 
 /* Esercizio 2 */
-.ex-2-square:hover {
+.ex-2-square:active {
     animation-name: two;
     animation-duration: 4s;
 }
@@ -31,5 +31,44 @@
 @keyframes three {
     to {
         border-radius: 50%;
+    }
+}
+
+/* Esercizio 4 */
+.ex-4-square:hover {
+    animation-name: four;
+    animation-duration: 2s;
+}
+
+@keyframes four {
+    to {
+        opacity: 0%;
+    }
+}
+
+/* Esercizio 5 */
+.ex-5-square:hover {
+    animation-name: five;
+    animation-duration: 4s;
+}
+
+@keyframes five {
+    to {
+        scale: 2;
+    }
+}
+
+.ex-5-square:active {
+    animation-name: five-2;
+    animation-duration: 4s;
+}
+
+@keyframes five-2 {
+    from {
+        scale: 2;
+    }
+
+    to {
+        scale: 0.5;
     }
 }
