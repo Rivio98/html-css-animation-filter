@@ -122,3 +122,18 @@
         scale: 1.5;
     }
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: ex-10-icon 1s infinite linear;
+}
+
+@keyframes ex-10-icon {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
