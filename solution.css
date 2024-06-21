@@ -1,126 +1,88 @@
 /* Esercizio 1 */
-.ex-1-square:hover {
-    animation-name: one;
-    animation-duration: 4s;
+
+
+.ex-1-square {
+    transition: 1s;
 }
 
-@keyframes one {
-    to {
-        background-color: #FF0000;
-    }
+.ex-1-square:hover {
+    background-color: #FF0000;
 }
 
 /* Esercizio 2 */
-.ex-2-square:active {
-    animation-name: two;
-    animation-duration: 4s;
+.ex-2-square {
+    transition: 3s;
 }
 
-@keyframes two {
-    to {
-        width: 100%;
-    }
+.ex-2-square:active {
+    width: 100%;
 }
 
 /* Esercizio 3 */
-.ex-3-square:hover {
-    animation-name: three;
-    animation-duration: 4s;
+.ex-3-square {
+    transition: 3s;
 }
 
-@keyframes three {
-    to {
-        border-radius: 50%;
-    }
+.ex-3-square:hover {
+    border-radius: 50%;
 }
 
 /* Esercizio 4 */
-.ex-4-square:hover {
-    animation-name: four;
-    animation-duration: 2s;
+.ex-4-square {
+    transition: 2s;
 }
 
-@keyframes four {
-    to {
-        opacity: 0%;
-    }
+.ex-4-square:hover {
+    opacity: 0;
 }
+
 
 /* Esercizio 5 */
-.ex-5-square:hover {
-    animation-name: five;
-    animation-duration: 4s;
+.ex-5-square {
+    transition: 2s;
 }
 
-@keyframes five {
-    to {
-        scale: 2;
-    }
+.ex-5-square:hover {
+    scale: 2;
 }
 
 .ex-5-square:active {
-    animation-name: five-2;
-    animation-duration: 4s;
-}
-
-@keyframes five-2 {
-    from {
-        scale: 2;
-    }
-
-    to {
-        scale: 0.5;
-    }
+    scale: 0.2;
 }
 
 /* Esercizio 6 */
 .ex-6-img:hover {
-    animation-name: six;
     filter: grayscale(100%);
 }
 
 /* Esercizio 7 */
-.ex-7-img:hover {
-    animation-name: seven;
-    filter: blur(10px);
-    animation-duration: 5s;
+.ex-7-img {
+    transition: 1s;
 }
 
-@keyframes seven {
-    to {
-        filter: grayscale(100%);
-    }
+.ex-7-img:hover {
+    filter: blur(5px) grayscale(50%);
 }
 
 /* Esercizio 8 */
-.ex-8-img:hover {
-    animation-name: eight;
-    filter: blur(10px);
-    animation-duration: 8s;
+.ex-8-img {
+    transition: 2s;
 }
 
-@keyframes eight {
-    to {
-        filter: grayscale(100%);
-
-        border-radius: 20%;
-    }
+.ex-8-img:hover {
+    filter: grayscale(100%);
+    border-radius: 20%;
 }
 
 /* Esercizio 9 */
-.ex-9-img:hover {
-    animation-name: nine;
-    filter: blur(10px);
-    animation-duration: 8s;
+.ex-9-img {
+    transition: 1s;
 }
 
-@keyframes nine {
-    to {
-        filter: grayscale(100%);
-
-        border-radius: 20%;
-        scale: 1.5;
-    }
+.ex-9-img:hover {
+    filter: blur(10px)grayscale(100%);
+    border-radius: 20%;
+    transform: scale(2);
 }
 
 /* Esercizio 10 */
@@ -139,8 +101,8 @@
 }
 
 /* Esercizio 11 */
-.ex-11-icon {
-    animation: ex-11-icon 2s infinite linear;
+.ex-11-icon:hover {
+    animation: ex-11-icon 2s linear;
 }
 
 @keyframes ex-11-icon {
@@ -149,7 +111,7 @@
     }
 
     80% {
-        transform: rotate(270deg);
+        transform: rotate(300deg);
     }
 
     100% {
